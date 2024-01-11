@@ -1,0 +1,9 @@
+<div class="wrap">
+  <div
+    *ngFor="let animation of animations"
+    class="c"
+    [style.animation]="animation.animation"
+    [style.background-color]="animation.backgroundColor"
+    [style.animation-delay]="animation.animationDelay"
+  ></div>
+</div>
